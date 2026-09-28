@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระบบรายงานผลการแข่งขันกีฬา | คณะวิศวกรรมศาสตร์</title>
+  
+  <!-- ตั้งค่า Favicon (รูปที่โชว์บนแท็บ) -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  
+  <style>
+    /* ตั้งค่าให้หน้าเว็บและ iframe กว้าง/สูง 100% ไม่มีขอบ */
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* ซ่อนแถบเลื่อนของหน้าหลัก ป้องกันการเลื่อนซ้อนกัน */
+      background-color: #090a0f; /* สีพื้นหลังธีมวิศวะ เพื่อไม่ให้ขอบขาวกระพริบตอนโหลด */
+    }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ดึงเว็บจาก Google Apps Script มาแสดงแบบเต็มจอ -->
+  <iframe src="https://script.google.com/macros/s/AKfycbyG0xkGNdMcKUcjuEHHXvIEGKXWIFgmHN91R-Bir_5sGajhALAT7K8gDOk3UpV8vhAK/exec"></iframe>
+
+</body>
+</html>
